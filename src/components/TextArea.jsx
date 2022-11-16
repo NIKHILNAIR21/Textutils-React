@@ -55,20 +55,16 @@ export default function TextArea(props) {
             }}
           ></textarea>
         </div>
-        <button className="btn btn-primary btn1" id="btn" onClick={uppercase}>
+        <button className="btn btn-primary btn1" onClick={uppercase}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary btn2" id="btn" onClick={lowercase}>
+        <button className="btn btn-primary btn2" onClick={lowercase}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary btn3" id="btn" onClick={clear}>
+        <button className="btn btn-primary btn3" onClick={clear}>
           clear text
         </button>
-        <button
-          className="btn btn-primary btn4"
-          id="btn"
-          onClick={handleExtraspce}
-        >
+        <button className="btn btn-primary btn4" onClick={handleExtraspce}>
           clear extra space
         </button>
         <button
