@@ -31,7 +31,7 @@ function App() {
         />
         <Routes>
           <Route
-            path="/"
+            path="/Textutils-React"
             element={
               <TextArea heading="Enter your text to format" mode={mode} />
             }
